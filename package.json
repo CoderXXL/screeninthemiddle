@@ -5,6 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:local": "ng build --output-path /var/www/screenInTheMiddle",
+    "build:local:watch": "ng build --watch --output-path /var/www/screenInTheMiddle",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
